@@ -16,9 +16,9 @@ Please go to the Original project to Click on [this](https://github.com/Koyanagi
 
 ## Note
 
-*This simulations work on only "Google Chrome".
-*And, I don't test environments under Linux and Mac.
-*Please give this app permission to use camera and mic.
+* This simulations work on only "Google Chrome".
+* And, I don't test environments under Linux and Mac.
+* Please give this app permission to use camera and mic.
 
 ## DEMO
 
