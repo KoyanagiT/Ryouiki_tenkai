@@ -64,6 +64,11 @@
                 prediction[i].className + ": " + prediction[i].probability.toFixed(2);
             labelContainer.childNodes[i].innerHTML = classPrediction;
         }
+        for (let i = 0; i < maxPredictions; i++) {
+            if(prediction[i].probability.toFixed(2) > 0.999){
+                window.location.href = "index2.html" + "?id=" + prediction[i].className
+            }
+        }
     }
 </script>
 </body>
