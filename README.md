@@ -2,6 +2,24 @@
 
 "Ryouiki_tenkai" is a Simulator of Ryouiki-Tenkai with Teachable Machine.
 
+## How to use
+  1. Concentrate
+  2. Complete the hand sign
+  3. shout
+  4. Concentrate again
+  5. you'll be a Shaman
+
+## Usage
+
+You don't play simulations here.
+Please go to the Original project to Click on [this](https://github.com/KoyanagiT/Ryouiki_tenkai).
+
+## Note
+
+*This simulations work on only "Google Chrome".
+*And, I don't test environments under Linux and Mac.
+*Please give this app permission to use camera and mic.
+
 ## DEMO
 
 You can learn how to making cute physics simulations (looks retro game).
@@ -66,12 +84,6 @@ I don't test environments under Linux and Mac.
 
 "Physics_Sim_Py" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
 
-Enjoy making cute physics simulations!
+Enjoy making cute Ryouiki-Tenkai simulations!
 
 Thank you!
-## How to use
-### 1. Concentrate
-### 2. Complete the hand sign
-### 3. shout
-### 4. Concentrate again
-### 5. you'll be a Shaman
