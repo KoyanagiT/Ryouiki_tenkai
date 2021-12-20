@@ -2,17 +2,13 @@
 
 "Ryouiki_tenkai" is a Simulator of Ryouiki-Tenkai with Teachable Machine.
 
-## How to use
-  1. Concentrate
-  2. Complete the hand sign
-  3. shout
-  4. Concentrate again
-  5. you'll be a Shaman
-
 ## Usage
-
-You don't play simulations here.
-Please go to the Original project to Click on [this](https://github.com/KoyanagiT/Ryouiki_tenkai).
+  1. Click on [this](https://koyanagit.github.io/Ryouiki_tenkai/).
+  2. Concentrate
+  3. Complete the hand sign
+  4. shout
+  5. Concentrate again
+  6. you'll be a Shaman
 
 ## Note
 
