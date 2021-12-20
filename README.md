@@ -86,6 +86,4 @@ You can also make app easely such as Ryouiki-Tenkai simulations to use this.
 
 Have a try!
 
-Enjoy making Ryouiki-Tenkai simulations!
-
 Thank you!
