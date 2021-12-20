@@ -76,13 +76,15 @@ I don't test environments under Linux and Mac.
 
 ## Author
 
-* Hayabusa
-* R&D Center
-* Twitter : https://twitter.com/Cpp_Learning
+me
 
-## License
+## In conclusion
 
-"Physics_Sim_Py" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+"Ryouiki_tenkai" is using [Teachable Machine](https://teachablemachine.withgoogle.com/).
+
+You can also make app easely such as Ryouiki-Tenkai simulations to use this.
+
+Have a try!
 
 Enjoy making cute Ryouiki-Tenkai simulations!
 
