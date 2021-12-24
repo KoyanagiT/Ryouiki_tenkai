@@ -29,6 +29,7 @@
     left: 50%;
     transform: translate(-50%,-500%);
     text-shadow: 0 0 15px #666;
+    animation: fadeIn 0.2s ease 0.3s 1 normal;
 }
 .midashi2{
     position:absolute;
@@ -36,12 +37,8 @@
     left: 40%;
     transform: translate(-15%,-400%);
     text-shadow: 0 0 15px #666;
+    animation: fadeIn 0.2s ease 0.3s 1 normal;
 }
-/*header設定*/
-#header{
-    position: relative;/*h1の中央寄せ配置の起点とするためのrelative*/
-    height: 100vh;/*高さを全画面にあわせる*/
-} 
 
 #video-area{
     position: fixed;
@@ -65,6 +62,11 @@
     height: 56.25vw; /* 16:9の幅 → 9 ÷ 16 = 56.25% */
     min-height: 100%;
     min-width: 100%;
+}
+        
+@keyframes fadeIn { /*animation-nameで設定した値を書く*/
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
 }
 </style>
     <div id="video-area">
