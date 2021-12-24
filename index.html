@@ -137,11 +137,16 @@
     async function predict() {
         // predict can take in an image, video or canvas html element
         const prediction = await model.predict(webcam.canvas);
+        var classPrediction;
+        var value;
         for (let i = 0; i < maxPredictions; i++) {
-            const classPrediction =
-                prediction[i].className + ": " + prediction[i].probability.toFixed(2);
-            labelContainer.childNodes[i].innerHTML = classPrediction;
+            if(prediction[i].probability.toFixed(2) > value){
+                if(prediction[i].className=="normal(noise)") classPrediction = "Prepare...";
+                else classPrediction =  "Omen of " + prediction[i].className + "...";
+            }
+            value= prediction[i].probability.toFixed(2);
         }
+        labelContainer.childNodes[i].innerHTML = classPrediction;
         for (let i = 0; i < maxPredictions; i++) {
             if(prediction[i].probability.toFixed(2) == 1.0 && prediction[i].className !="normal(noise)"){
                 window.location.href = "https://koyanagit.github.io/KnowInfo/" + "?id=" + encodeURIComponent(prediction[i].className)
