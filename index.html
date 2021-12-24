@@ -28,15 +28,13 @@
     top: 70%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
-    width: 20%;
-    min-width: 100px;
-    max-width: 400px;
-    padding: 10px;
-    box-sizing: border-box;
-    border: 1px solid #68779a;
-    background: #cbe8fa;
-    cursor: pointer;
-    text-align: center;
+    z-index: -1;
+}
+.webS2{
+    position:absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
     z-index: -1;
 }
 .midashi{
@@ -98,7 +96,7 @@
     <h1 class="midashi2">Ryouiki-Tenkai Model</h1>
 <button id="startb" type="button" onclick="init()" class="buttonS">Start</button>
 <div id="webcam-container"class="webS"></div>
-<div id="label-container"style="text-align:center"></div>
+<div id="label-container"class="webS2"></div>
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
 <script type="text/javascript">
