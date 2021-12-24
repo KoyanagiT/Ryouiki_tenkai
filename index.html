@@ -7,7 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Teachable Machine Ryouiki-Tenkai Model</h1>
     <style>
 .buttonS{
     width: 20%;
@@ -20,7 +19,16 @@
     cursor: pointer;
     text-align: center;
 }
+.midashi{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    color:#fff;
+    text-shadow: 0 0 15px #666;
+}
 </style>
+    <h1 class="midashi">Teachable Machine Ryouiki-Tenkai Model</h1>
 <button id="startb" type="button" onclick="init()" class="buttonS">Start</button>
 <div id="webcam-container"style="text-align:center"></div>
 <div id="label-container"style="text-align:center"></div>
