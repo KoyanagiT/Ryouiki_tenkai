@@ -52,7 +52,7 @@
     left: 50%;
     transform: translate(-50%,-550%);
     text-shadow: 0 0 15px #666;
-    animation: fadeIn 3s ease 1s 1 normal;
+    animation: fadeIn 1s ease 1s 1 normal;
     font-family: serif;
     color: azure;
 }
@@ -62,7 +62,7 @@
     left: 40%;
     transform: translate(-15%,-480%);
     text-shadow: 0 0 15px #666;
-    animation: fadeIn 3s ease 1s 1 normal;
+    animation: fadeIn 1s ease 1s 1 normal;
     font-family: serif;
     color: azure;
 }
@@ -120,10 +120,10 @@
 }
 .Instruction3 {
     position:absolute;
-    top: 30%;
+    top: 28%;
     left: 58%;
     font-size: 2em;
-    animation: fadeIn 6s ease 1s 1 normal;
+    animation: fadeIn 10s ease 1s 1 normal;
     font-family: serif;
     color: red;
 }
@@ -146,8 +146,8 @@
     <h1 class="midashi"> Teachable Machine</h1>
     <h1 class="midashi2">Ryouiki-Tenkai Model</h1>
     <div class="Instruction">Projected by Koyanagi inc. in 2021/12</div>
-    <h2 class="Instruction2" id = "inst">Push it or not push it, <h2>
-    <h2 class="Instruction3" id = "inst">it's up to you<h2>    
+    <h2 class="Instruction2" id = "inst1">Push it or not push it, </h2>
+        <h2 class="Instruction3" id = "inst2">it's up to you</h2>    
 <button id="startb" type="button" onclick="init()" class="buttonS">P L A Y</button>
 <div id="webcam-container"class="webS"></div>
 <div id="label-container"class="webS2"></div>
@@ -169,6 +169,10 @@
         
         var list_element = document.getElementById("startb");
         list_element.remove();
+        list_element = document.getElementById("inst1");
+        list_element.remove();
+        var list_element3 = document.getElementById("inst2");
+        list_element3.remove();
         
         tag = document.getElementById("video");
         tag.src = "./img/inPredect.mp4";
