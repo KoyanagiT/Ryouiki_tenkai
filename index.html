@@ -96,23 +96,45 @@
     100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
 }
 .Instruction {
-    width: 16ch; // 文字数分の長さに設定
-    font-family: serif;
-    color: azure;
-    animation: typing 2s steps(16), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
+    width: 40ch; // 文字数分の長さに設定
     border-right: 3px solid; // カーソルの大きさを設定する
     font-size: 2em;
+    animation: typing 5s steps(40, end), blink .5s step-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: serif;
+    color: azure;
+}
+.Instruction2 {
+    position:absolute;
+    top: 30%;
+    left: 23%;
+    width: 40ch; // 文字数分の長さに設定
+    border-right: 3px solid; // カーソルの大きさを設定する
+    font-size: 2em;
+    animation: typing 5s steps(40, end), blink .5s step-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: serif;
+    color: azure;
+}
+.Instruction3 {
+    position:absolute;
+    top: 30%;
+    left: 58%;
+    font-size: 2em;
+    animation: fadeIn 6s ease 1s 1 normal;
+    font-family: serif;
+    color: red;
 }
 @keyframes typing {
    from {
-     width: 0 // 行頭から開始
+     width: 0; // 行頭から開始
    }
 }
 @keyframes blink {
    50% {
-     border-color: transparent // チカチカする表現部分
+     border-color: transparent; // チカチカする表現部分
    }
 }
 </style>
@@ -123,7 +145,9 @@
     </div>
     <h1 class="midashi"> Teachable Machine</h1>
     <h1 class="midashi2">Ryouiki-Tenkai Model</h1>
-    <div class="Instruction">This is a typing now.</div>
+    <div class="Instruction">Projected by Koyanagi inc. in 2021/12</div>
+    <h2 class="Instruction2" id = "inst">Push it or not push it, <h2>
+    <h2 class="Instruction3" id = "inst">it's up to you<h2>    
 <button id="startb" type="button" onclick="init()" class="buttonS">P L A Y</button>
 <div id="webcam-container"class="webS"></div>
 <div id="label-container"class="webS2"></div>
