@@ -1,3 +1,5 @@
+知識情報工学という授業でつくった作品
+
 # Ryouiki_tenkai
 
 "Ryouiki_tenkai" is a Simulator of Ryouiki-Tenkai with Teachable Machine.
